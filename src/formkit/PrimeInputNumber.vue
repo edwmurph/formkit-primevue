@@ -34,6 +34,8 @@ const styleClass = computed(() => (context?.state.validationVisible && !context?
       :max="attrs.max ?? undefined"
       :min-fraction-digits="attrs.minFractionDigits ?? undefined"
       :max-fraction-digits="attrs.maxFractionDigits ?? undefined"
+      :increment-button-icon="attrs.incrementButtonIcon ?? undefined"
+      :decrement-button-icon="attrs.decrementButtonIcon ?? undefined"
       :locale="attrs.locale ?? undefined"
       :mode="attrs.mode ?? undefined"
       :currency="attrs.currency ?? undefined"
