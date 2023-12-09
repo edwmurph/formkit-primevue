@@ -1,0 +1,7 @@
+{
+  "src/formkit/index.ts": {
+    "file": "formkit-primevue.umd.js",
+    "isEntry": true,
+    "src": "src/formkit/index.ts"
+  }
+}
